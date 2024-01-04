@@ -4,10 +4,24 @@ A collection of versatile Python scripts designed to serve as a toolbox for vari
 
 ## Features:
 
-- **Network Scanner (`network_scanner`):** A script designed for scanning networks, identifying active hosts, and providing essential information about each device. Useful for cybersecurity assessments and network monitoring.
+- **Network Scanner (`network_scanner.py`):** A script designed for scanning networks, identifying active hosts, and providing essential information about each device. Useful for cybersecurity assessments and network monitoring.
 
-- 
-- 
+  - **Usage:**
+    - Ensure you have Python installed.
+    - Open a terminal and navigate to the directory containing `network_scanner.py`.
+    - Run the following command:
+      ```bash
+      python network_scanner.py
+      ```
+    - Follow the prompts to enter the target IP address, starting port, and ending port.
+
+  - **Dependencies:**
+    - This script requires Python. You can download it from [python.org](https://www.python.org/downloads/).
+    - No additional Python packages are needed.
+
+  - **Notes:**
+    - Adjust the timeout in `sock.settimeout(1)` if needed for your network conditions.
+    - Please use this tool responsibly and in accordance with applicable laws and regulations.
 
 ## Usage:
 
