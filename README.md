@@ -23,6 +23,45 @@ A collection of versatile Python scripts designed to serve as a toolbox for vari
     - Adjust the timeout in `sock.settimeout(1)` if needed for your network conditions.
     - Please use this tool responsibly and in accordance with applicable laws and regulations.
 
+- **Password Manager ('password_manager.py'):** Securely manage your passwords with our Python-based Password Manager. This tool provides a simple yet effective way to store and retrieve passwords for different accounts and categories.
+
+- **Secure Encryption:** Utilizes the `cryptography` library for robust encryption, ensuring the confidentiality of stored passwords.
+
+- **User-Friendly Interface:** Easy-to-use command-line interface for adding and retrieving passwords.
+
+- **Data Persistence:** Passwords are encrypted and stored persistently, allowing users to access their passwords across sessions.
+
+ - **Usage:**
+
+   - **Installation:**
+     - Clone the repository: `git clone https://github.com/binbash0/python-script-toolbox.git`
+     - Navigate to the project directory: `cd python-script-toolbox`
+
+   - **Run the Password Manager:**
+     - Execute the script: `python password_manager.py`
+     - Follow the prompts to add or retrieve passwords.
+
+   - **Master Password:**
+     - You will be prompted to enter a master password when running the Password Manager. This password is used for encryption and decryption.
+
+- **Example:**
+
+```bash
+# Add a password
+python password_manager.py
+
+# Retrieve a password
+python password_manager.py
+```
+
+- **Dependencies:**
+- [`cryptography`](https://cryptography.io/en/latest/)
+
+- **Note:**
+Please ensure that you have Python and the required dependencies installed before using the Password Manager.
+
+
+
 ## Usage:
 
 Explore the scripts and find tools that suit your needs, especially in the realms of cybersecurity, ethical hacking, and bug bounty programs. Each script is designed for modularity and ease of integration. Refer to individual script directories for specific usage instructions.
