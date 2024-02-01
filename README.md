@@ -3,8 +3,7 @@
 A collection of versatile Python scripts designed to serve as a toolbox for various tasks, with a focus on aiding in cybersecurity, ethical hacking automation, and bug bounty initiatives. From simple utilities to more complex functionalities, this repository aims to provide a range of tools that can be easily integrated into different projects.
 
 ## Features:
-**1.**
-- **Network Scanner (`network_scanner.py`):** A script designed for scanning networks, identifying active hosts, and providing essential information about each device. Useful for cybersecurity assessments and network monitoring.
+**1.** **Network Scanner (`network_scanner.py`):** A script designed for scanning networks, identifying active hosts, and providing essential information about each device. Useful for cybersecurity assessments and network monitoring.
 
   - **Usage:**
     - Ensure you have Python installed.
@@ -23,8 +22,7 @@ A collection of versatile Python scripts designed to serve as a toolbox for vari
     - Adjust the timeout in `sock.settimeout(1)` if needed for your network conditions.
     - Please use this tool responsibly and in accordance with applicable laws and regulations.
 
-**2.**
-- **Password Manager ('password_manager.py'):** Securely manage your passwords with our Python-based Password Manager. This tool provides a simple yet effective way to store and retrieve passwords for different accounts and categories.
+**2.** **Password Manager ('password_manager.py'):** Securely manage your passwords with our Python-based Password Manager. This tool provides a simple yet effective way to store and retrieve passwords for different accounts and categories.
 
 - **Secure Encryption:** Utilizes the `cryptography` library for robust encryption, ensuring the confidentiality of stored passwords.
 
