@@ -22,7 +22,7 @@ A collection of versatile Python scripts designed to serve as a toolbox for vari
     - Adjust the timeout in `sock.settimeout(1)` if needed for your network conditions.
     - Please use this tool responsibly and in accordance with applicable laws and regulations.
 
-**2.** **Password Manager ('password_manager.py'):** Securely manage your passwords with our Python-based Password Manager. This tool provides a simple yet effective way to store and retrieve passwords for different accounts and categories.
+**2.** **Password Manager (`password_manager.py`):** Securely manage your passwords with our Python-based Password Manager. This tool provides a simple yet effective way to store and retrieve passwords for different accounts and categories.
 
 - **Secure Encryption:** Utilizes the `cryptography` library for robust encryption, ensuring the confidentiality of stored passwords.
 
